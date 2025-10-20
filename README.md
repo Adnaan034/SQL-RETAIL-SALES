@@ -289,5 +289,4 @@ SQL_RETAIL/
 
 Adnaan Shaikh
 📊 Data Analyst | SQL | Power BI | Excel | Python
-📫 LinkedIn
- | GitHub
+
