@@ -211,7 +211,73 @@ LIMIT 5;
 
 - GitHub – Project documentation and version control
 
-### 📂 Project Structure
+### 📋 Findings Report
+
+After performing data cleaning, exploration, and business analysis on the Retail Sales dataset, the following key findings were observed:
+
+1️⃣ Data Quality
+
+- Several records had missing values in crucial columns such as transaction_id, sale_date, customer_id, age, category, quantity, and total_sale.
+
+- Some columns had blank or string 'NULL' values, which needed to be cleaned before analysis.
+
+- Cleaning ensured the dataset was accurate and reliable for further analysis.
+
+2️⃣ Sales Insights
+
+- Total Sales: Aggregate revenue across all transactions gave a clear picture of business scale.
+
+- High-Value Transactions: Transactions where total_sale > 1000 identified key contributors to revenue.
+
+  Category-wise Sales:
+
+- Clothing and Beauty categories emerged as highest revenue contributors.
+
+- Least popular products and categories were also identified, useful for inventory planning.
+
+3️⃣ Customer Insights
+
+- Unique Customers: Count of distinct customers indicated customer base size.
+
+- Top 5 Customers: Contributed most to total sales, highlighting loyal and high-value customers.
+
+- Customer Age Groups: Certain age groups were more active in purchasing — particularly for Beauty and Clothing categories.
+
+- Gender-based analysis showed different purchasing patterns across categories.
+
+4️⃣ Time-Based Insights
+
+- Shifts Analysis: Morning and Afternoon shifts recorded the highest number of orders, indicating peak business hours.
+
+- Daily and Monthly Trends:
+
+- Certain weekdays and months had consistently higher sales.
+
+- Ranking by month/year helped identify best-performing periods.
+
+5️⃣ Profitability Insights
+
+- Annual profit calculation (SUM(total_sale) - SUM(cogs)) highlighted most profitable years.
+
+- Helps prioritize strategies for product categories and peak periods to maximize profitability.
+
+### 🏁 Conclusion
+
+- The analysis of the Retail Sales dataset provided actionable insights for both business strategy and operational efficiency:
+
+- Data Cleaning is critical: Missing and inconsistent data must be addressed to ensure accurate analysis.
+
+- Revenue Drivers: Clothing and Beauty are top-performing categories; high-value customers significantly influence total sales.
+
+- Customer Targeting: Age and gender insights can guide marketing campaigns and personalized promotions.
+
+- Time Optimization: Peak sales occur during Morning and Afternoon shifts — staffing and promotions can be planned accordingly.
+
+- Strategic Planning: Identifying least purchased products and low-performing months can help optimize inventory and marketing efforts.
+
+## ✅ Overall, the findings provide a comprehensive understanding of sales performance, customer behavior, and business trends, enabling data-driven decision-making.
+
+## 📂 Project Structure
 SQL_RETAIL/
 │
 ├── retail_sales.sql        # All SQL queries
